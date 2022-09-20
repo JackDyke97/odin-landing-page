@@ -1,0 +1,62 @@
+.top {
+  background-color: #1f2937;
+  overflow: hidden;
+  position: float;
+}
+
+.header {
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 50px;
+  width: 150px;
+}
+
+.menu {
+  color: #f9faf8;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-left: 70%;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+#topimg {
+  height: auto;
+  max-width: 500px;
+  display: inline;
+  justify-content: right;
+  padding-left: 25%;
+}
+
+.hero {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  float: left;
+  justify-content: left;
+  padding-left: 120px;
+}
+
+.hero sub {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.hero button {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  background-color: #3882f6;
+  border-color: #3882f6;
+}
