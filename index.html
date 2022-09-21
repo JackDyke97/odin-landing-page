@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
-</head>
-<body>
-<div class="top">
-     <div class="header">Header Logo</div>
+  </head>
 
-     <div class="menu">
-    <ul>
-        <li>Home</li>
-        <li>Quote</li>
-        <li>Contact us</li>
-    </ul>
-</div>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="left">
+          <p id="logo">Header Logo</p>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
+        </div>
+      </div>
 
-    <img id="topimg" src="images/lorenzo-herrera.jpg">
+      <div class="welcome">
+        <div class="left">
+          <h1 class="hero">This website is awesome</h1>
+          <p class="secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="secondary">Sign up</button>
+        </div>
+        <div class="right">
+          <div class="image">
+            <p class="secondary">this is a placeholder for an image</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<div class="hero">
-    <p>This website is awesome
-    <sub>Or is it?</sub></p>
-    <button>Sign up</button>
-</div>
-        
-       
-    </div>
-  
-        <h4>This is some cool stuff you should look at</h4>
-        <div class="container">
-      
-            <ul>
-                <li><img src="images/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg" alt="box"><figcaption>GAMERS</figcaption></li>
-                 <li><img src="images/mike-meyers-v8XaVfyo41Q-unsplash.jpg" alt="box"><figcaption>GAMERS</figcaption></li>
-                 <li><img src="images/redd-3mWxKnqET3E-unsplash.jpg" alt="box"><figcaption>GAMERS</figcaption></li>
-                  <li><img src="images/uriel-soberanes-MxVkWPiJALs-unsplash.jpg" alt="box"><figcaption>GAMERS</figcaption></li>
-        </ul>
-        
-    </div>
-        
+    <main>
+      <h2>Some random information.</h2>
+      <div class="card-container secondary">
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </main>
+
     <div class="quote">
-        <i>An awesome inspirational quote. You are now motivated. Go do the thing.</i>
-        <h5>-Some Guy Probably</h5>
+      <em
+        >This is an inspiring quote, or a testimonial from a customer. Maybe
+        it's just filling up space, or maybe people will actually read it. Who
+        knows? All I know is that it looks nice.</em
+      >
+      <p>- Thor, God of Thunder</p>
     </div>
 
-    <div class="footer">
-        <p>Since this exists on the internet, you gotta sign up and add it to your ever increasing list<sub>sorry</sub></p>
-        
-        <button>Sign Up</button>
+    <div class="sign-up">
+      <div class="container">
+        <div class="left">
+          <strong>Call to action! It's time!</strong>
+          <p class="secondary">
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="right">
+          <button class="secondary">Sign up</button>
+        </div>
+      </div>
     </div>
-        </body>
-</body>
+
+    <footer>Copyright &copy; The Odin Project 2021</footer>
+  </body>
 </html>
